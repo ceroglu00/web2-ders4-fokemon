@@ -41,7 +41,7 @@
     </section>
     <section v-else class="text-center mt-16">
       <h2 v-if="oyuncu.can<=0">GAME OVER!</h2>
-      <h2 v-else>BRAVO KAZANDINIZ!</h2>
+      <h2 v-else>BRAVO KAZANDINIZ! Helal olsun</h2>
       <v-btn @click="OyunuBaslat" color="purple" variant="tonal">Yeniden Başlayalımmı ?</v-btn>
     </section>
 
